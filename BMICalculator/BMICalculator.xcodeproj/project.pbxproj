@@ -14,6 +14,8 @@
 		17C6298327C2A253003F3BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C6298127C2A253003F3BCE /* Main.storyboard */; };
 		17C6298527C2A254003F3BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C6298427C2A254003F3BCE /* Assets.xcassets */; };
 		17C6298827C2A254003F3BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C6298627C2A254003F3BCE /* LaunchScreen.storyboard */; };
+		17CBA5D327D3ECBC00B0BBA3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBA5D227D3ECBC00B0BBA3 /* CalculatorBrain.swift */; };
+		17E36CFE27D92CB600315EE3 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E36CFD27D92CB600315EE3 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		17C6298427C2A254003F3BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C6298727C2A254003F3BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C6298927C2A254003F3BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CBA5D227D3ECBC00B0BBA3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		17E36CFD27D92CB600315EE3 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		1789559327CE9F4100687FB0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17CBA5D227D3ECBC00B0BBA3 /* CalculatorBrain.swift */,
+				17E36CFD27D92CB600315EE3 /* BMI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				17C6298027C2A253003F3BCE /* CalculateViewController.swift in Sources */,
 				17C6297C27C2A253003F3BCE /* AppDelegate.swift in Sources */,
 				17C6297E27C2A253003F3BCE /* SceneDelegate.swift in Sources */,
+				17CBA5D327D3ECBC00B0BBA3 /* CalculatorBrain.swift in Sources */,
+				17E36CFE27D92CB600315EE3 /* BMI.swift in Sources */,
 				1789559727D013A300687FB0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
